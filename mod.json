@@ -1,0 +1,38 @@
+{
+	"geode": "5.10.1",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "krexale.geometry-dash-1-attempt",
+	"name": "Geometry Dash 1 Attempt",
+	"version": "v1.0.0",
+	"developer": "Krexale",
+	"description": "Hi ! I'm Krexale, a French developer.",
+	"dependencies": {
+		"geode.node-ids": ">=v1.23.3"
+	},
+	"resources": {
+		"files": [
+			"resources/levels.csv"
+		],
+		"sprites": [
+			"resources/*.png",
+			"resources/*.webp"
+		]
+	},
+	"settings": {
+		"github-token": {
+			"type": "string",
+			"name": "GitHub token (moderators only)",
+			"description": "Moderators: paste your GitHub token here. Leave empty if you are not a moderator.",
+			"default": "",
+			"filter": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-"
+		}
+	},
+	"links": {
+		"source": "https://github.com/KrexaleDev/geometry-dash-1-attempt"
+	}
+}
